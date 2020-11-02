@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\RenderPipeline">
+      <UniqueIdentifier>{959eb144-5717-4c3e-851c-ea07c18b8355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderPipeline">
+      <UniqueIdentifier>{05192b95-a420-456c-aeb1-2ffd845f991e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{282d4ae3-85f7-4ac7-9518-30bc26a6e297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{6347b952-9fc5-4d31-ab66-66a3467e5e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Math">
+      <UniqueIdentifier>{5229cda3-564a-4e73-a82b-c0d2f1aafec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Math">
+      <UniqueIdentifier>{3d77b718-8ed3-4369-9d38-deaacbdc22bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameComponent">
+      <UniqueIdentifier>{31cb8fa5-82e5-47bf-b00e-9ec24a2a1596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameComponent">
+      <UniqueIdentifier>{faa20d55-d43d-40f7-8f18-3811ed2ad40c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terminal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPipeline\Mesh.cpp">
+      <Filter>Source Files\RenderPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPipeline\RenderSystem3D.cpp">
+      <Filter>Source Files\RenderPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Transform.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\Matrix.cpp">
+      <Filter>Source Files\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\Vec.cpp">
+      <Filter>Source Files\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GameObject.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponent\MeshRenderer.cpp">
+      <Filter>Source Files\GameComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponent\GameComponent.cpp">
+      <Filter>Source Files\GameComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponent\CameraViewComponent.cpp">
+      <Filter>Source Files\GameComponent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainLoop.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipeline\Mesh.hpp">
+      <Filter>Header Files\RenderPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipeline\RenderPrimitive.hpp">
+      <Filter>Header Files\RenderPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipeline\RenderSystem3D.hpp">
+      <Filter>Header Files\RenderPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Transform.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Math\Vec.hpp">
+      <Filter>Header Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Math\Matrix.hpp">
+      <Filter>Header Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Math\Angle.hpp">
+      <Filter>Header Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Camera.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameObject.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent\GameComponent.hpp">
+      <Filter>Header Files\GameComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent\MeshRenderer.hpp">
+      <Filter>Header Files\GameComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent\CameraViewComponent.hpp">
+      <Filter>Header Files\GameComponent</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
